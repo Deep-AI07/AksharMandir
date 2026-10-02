@@ -1,0 +1,6 @@
+{
+  "name": "Akshar Mandir - Divine Modernity",
+  "description": "Exquisite handcrafted wooden and modern home mandirs, bespoke temple designs, catalog browsing, cart & checkout, customer portal, and admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

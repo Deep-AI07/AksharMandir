@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #570000;
+    --primary-dark: #3e0000;
+    --primary-light: #800000;
+    --secondary: #7b581e;
+    --secondary-light: #c59b27;
+    --gold: #d4af37;
+    --brass: #b8860b;
+    --surface: #fbf9f8;
+    --surface-low: #f6f3f2;
+    --surface-card: #ffffff;
+    --border-subtle: #eae5e2;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--surface);
+    color: #1f1c1b;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Material Symbols alignment helper */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.material-symbols-outlined.fill-1 {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f6f3f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4c8c4;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7b581e;
+}
+
+/* Pristine Print Stylesheet - Prevents multi-page overflow and ensures clean 1-page output */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 8mm 10mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #1f1c1b !important;
+    font-size: 11px !important;
+  }
+
+  /* Prevent page breaks inside table rows, containers, and blocks */
+  tr, td, th, .invoice-box, .print-avoid-break {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+}

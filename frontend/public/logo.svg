@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sacred Mandir Kalash & Temple Spire Motif -->
+  <rect width="64" height="64" rx="14" fill="#570000"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.6"/>
+  
+  <!-- Temple Kalash Shikhar Top -->
+  <path d="M32 7L35.5 14H28.5L32 7Z" fill="#fdcc87"/>
+  <circle cx="32" cy="7" r="2" fill="#ffd700"/>
+  
+  <!-- Temple Gopuram Tiers -->
+  <path d="M22 15L32 9L42 15L40 23H24L22 15Z" fill="#d4af37"/>
+  <path d="M19 23.5H45L42.5 31H21.5L19 23.5Z" fill="#f59e0b"/>
+  
+  <!-- Inner Sanctum Arch & Garbhagriha -->
+  <path d="M16 31.5H48V53C48 54.1 47.1 55 46 55H18C16.9 55 16 54.1 16 53V31.5Z" fill="#3a0000"/>
+  <path d="M23 55V39C23 34 27 30 32 30C37 30 41 34 41 39V55H23Z" fill="#fdcc87"/>
+  
+  <!-- Sacred Diya Flame -->
+  <circle cx="32" cy="45" r="4.5" fill="#570000"/>
+  <path d="M32 38C30.5 41 29 43 29 45.5C29 47.2 30.3 48.5 32 48.5C33.7 48.5 35 47.2 35 45.5C35 43 33.5 41 32 38Z" fill="#f59e0b"/>
+  
+  <!-- Base Plinth -->
+  <rect x="13" y="55" width="38" height="3.5" rx="1" fill="#d4af37"/>
+  <rect x="9" y="58.5" width="46" height="2.5" rx="0.5" fill="#fdcc87"/>
+</svg>
